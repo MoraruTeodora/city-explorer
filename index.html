@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Explorer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <h1>City Explorer</h1>
+        <nav class="menu">
+            <a href="#destinatii">Destinații</a>
+            <a href="#planifica">Planifică</a>
+            <a href="#recomandari">Recomandări</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="destinatii">
+            <h2>Destinații</h2>
+            <div class="cards">
+                <article class="card featured">
+                    <h3>Lisabona, Portugalia</h3>
+                    <p>Oraș colinar de coastă, renumit pentru tramvaiele galbene istorice, cartierul Alfama și muzica Fado.</p>
+                    <p><strong>Durată recomandată:</strong> 4 zile</p>
+                </article>
+
+                <article class="card">
+                    <h3>Praga, Cehia</h3>
+                    <p>Capitală istorică cunoscută pentru Podul Carol, Ceasul Astronomic și arhitectura gotică bine conservată.</p>
+                    <p><strong>Durată recomandată:</strong> 3 zile</p>
+                </article>
+
+                <article class="card">
+                    <h3>Roma, Italia</h3>
+                    <p>Un adevărat muzeu în aer liber, ce îmbină ruinele antice precum Colosseumul cu piețe vibrante și gastronomie autentică.</p>
+                    <p><strong>Durată recomandată:</strong> 5 zile</p>
+                </article>
+
+                <article class="card">
+                    <h3>Viena, Austria</h3>
+                    <p>Metropolă imperială celebră pentru palatele Schönbrunn și Belvedere, tradiția muzicii clasice și cafenelele elegante.</p>
+                    <p><strong>Durată recomandată:</strong> 3 zile</p>
+                </article>
+
+                <article class="card">
+                    <h3>Barcelona, Spania</h3>
+                    <p>Destinație mediteraneană însorită, definită de capodoperele arhitecturale ale lui Gaudí și atmosfera de pe La Rambla.</p>
+                    <p><strong>Durată recomandată:</strong> 4 zile</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="planifica">
+            <h2>Planifică o excursie</h2>
+            <form class="trip-form">
+                <label for="name">Nume</label>
+                <input id="name" name="name" type="text" placeholder="Introdu numele tău">
+
+                <label for="destination">Destinație</label>
+                <select id="destination" name="destination">
+                    <option value="">Alege...</option>
+                    <option value="Lisabona">Lisabona</option>
+                    <option value="Praga">Praga</option>
+                    <option value="Roma">Roma</option>
+                    <option value="Viena">Viena</option>
+                    <option value="Barcelona">Barcelona</option>
+                </select>
+
+                <label for="days">Număr de zile</label>
+                <input id="days" name="days" type="number" min="1" max="30" placeholder="Ex: 4">
+
+                <button type="submit">Planifică excursia</button>
+            </form>
+        </section>
+
+        <section id="recomandari">
+            <h2>Recomandări de călătorie</h2>
+            <ul>
+                <li>Rezervă biletele online în avans pentru obiectivele populare pentru a evita cozile.</li>
+                <li>Folosește abonamentele de transport public pe mai multe zile pentru a economisi timp și bani.</li>
+                <li>Explorează cartierele istorice la pas dimineața devreme, când străzile sunt libere.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Moraru Costinela-Teodora, 2026</p>
+    </footer>
+
+</body>
+</html>
